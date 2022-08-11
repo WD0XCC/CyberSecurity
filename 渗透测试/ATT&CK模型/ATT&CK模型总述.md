@@ -111,11 +111,56 @@ ATT&CK中缓解措施介绍的是阻止某种技术或子技术成功执行的�
 
 **截至目前，最新版本为2022年4月25发布的ATT&CK v11版本， 此版本的Enterprise ATT&CK包含14中战术、191 技术、386项子技术。**
 
+| ID                                                | Name                                                         | Description                                                  |
+| ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [TA0043](https://attack.mitre.org/tactics/TA0043) | [Reconnaissance](https://attack.mitre.org/tactics/TA0043)    | The adversary is trying to gather information they can use to plan future operations. |
+| [TA0042](https://attack.mitre.org/tactics/TA0042) | [Resource Development](https://attack.mitre.org/tactics/TA0042) | The adversary is trying to establish resources they can use to support operations. |
+| [TA0001](https://attack.mitre.org/tactics/TA0001) | [Initial Access](https://attack.mitre.org/tactics/TA0001)    | The adversary is trying to get into your network.            |
+| [TA0002](https://attack.mitre.org/tactics/TA0002) | [Execution](https://attack.mitre.org/tactics/TA0002)         | The adversary is trying to run malicious code.               |
+| [TA0003](https://attack.mitre.org/tactics/TA0003) | [Persistence](https://attack.mitre.org/tactics/TA0003)       | The adversary is trying to maintain their foothold.          |
+| [TA0004](https://attack.mitre.org/tactics/TA0004) | [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) | The adversary is trying to gain higher-level permissions.    |
+| [TA0005](https://attack.mitre.org/tactics/TA0005) | [Defense Evasion](https://attack.mitre.org/tactics/TA0005)   | The adversary is trying to avoid being detected.             |
+| [TA0006](https://attack.mitre.org/tactics/TA0006) | [Credential Access](https://attack.mitre.org/tactics/TA0006) | The adversary is trying to steal account names and passwords. |
+| [TA0007](https://attack.mitre.org/tactics/TA0007) | [Discovery](https://attack.mitre.org/tactics/TA0007)         | The adversary is trying to figure out your environment.      |
+| [TA0008](https://attack.mitre.org/tactics/TA0008) | [Lateral Movement](https://attack.mitre.org/tactics/TA0008)  | The adversary is trying to move through your environment.    |
+| [TA0009](https://attack.mitre.org/tactics/TA0009) | [Collection](https://attack.mitre.org/tactics/TA0009)        | The adversary is trying to gather data of interest to their goal. |
+| [TA0011](https://attack.mitre.org/tactics/TA0011) | [Command and Control](https://attack.mitre.org/tactics/TA0011) | The adversary is trying to communicate with compromised systems to control them. |
+| [TA0010](https://attack.mitre.org/tactics/TA0010) | [Exfiltration](https://attack.mitre.org/tactics/TA0010)      | The adversary is trying to steal data.                       |
+| [TA0040](https://attack.mitre.org/tactics/TA0040) | [Impact](https://attack.mitre.org/tactics/TA0040)            | The adversary is trying to manipulate, interrupt, or destroy your systems and data. |
+
 ## 2.1 侦察（Reconnaissance）
 
-攻击者试图收集可用于规划未来操作的信息。
+**战术目的：攻击者试图收集可用于规划未来操作的信息。**
 
 侦察包括攻击者主动或被动地收集可用于达成目标的信息的技术。此类信息可能包括受害者组织、基础设施或工作人员的详细信息。攻击者可以利用此信息为攻击者生命周期的其他阶段提供帮助，例如使用收集的信息来规划和执行初始访问，确定妥协后目标的范围和优先顺序，或推动和领导进一步的侦察工作。
+
+### 2.1.1 主动扫描T1595
+
+### 2.1.2 收集受害者主机信息T1592
+
+#### 1)IP块扫描
+
+攻击者可能会扫描受害者 IP 块以收集可在定位期间使用的信息。
+
+#### 2）漏洞扫描
+
+#### 3）词表扫描
+
+### 2.1.3 收集受害者身份信息T1589
+
+### 2.1.4 收集受害者网络信息T1590
+
+### 2.1.5 收集受害者组织信息T1591
+
+### 2.1.6 网络钓鱼信息T1598
+
+### 2.1.7 搜索封闭源T1597
+
+### 2.1.8 搜索开放技术数据库T1596
+
+### 2.1.9 搜索打开的网站/域T1593
+
+### 2.1.10 搜索受害者拥有的网站T1594
 
 ## 2.2 资源开发（Resource Development）
 
