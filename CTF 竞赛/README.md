@@ -21,7 +21,7 @@
 
 **CTF相关比赛（国际）：**
 
-国外主要的CTF比赛可以在https://ctftime.org/上面参考。以下列出一些质量较好的CTF比赛：
+国外主要的CTF比赛可以在https://ctftime.org上面参考。以下列出一些质量较好的CTF比赛：
 
 - Google CTF:https://capturetheflag.withgoogle.com/
 - 0CTF：https://0ops.sjtu.cn/
